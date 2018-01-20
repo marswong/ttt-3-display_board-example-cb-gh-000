@@ -7,3 +7,13 @@ def display_board
     "-----------\n" \
     "   |   |   "
 end
+
+def display_board
+  for i in 1..5
+    if i % 2 == 1
+      puts '   |   |   '
+    else
+      puts '-----------'
+    end
+  end
+end
